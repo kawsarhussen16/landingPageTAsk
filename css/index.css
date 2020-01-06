@@ -1,0 +1,260 @@
+html,
+body,
+div,
+span,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+samp,
+small,
+strike,
+strong,
+ol,
+ul,
+li,
+form,
+label,
+article,
+canvas,
+footer,
+header 
+{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+body{
+    background-image: url("../image/background1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+    overflow-y: scroll; 
+    color: white;
+    font-family: Roboto;
+    letter-spacing: 1px;
+}
+.headerNavContainer{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: 12px;
+}
+@media (max-width: 480px) {
+    .headerNavContainer{
+        font-size: 10px;
+    }
+}
+.title{
+    margin-left: 5%;
+    width: 30%;
+    text-align: start;  
+}
+@media (max-width: 480px) {
+    .title{
+        font-size: 10px; 
+        width: 15%;
+        margin: auto;
+    }
+}
+.dropDown{
+    width: 30%; 
+}
+@media (max-width: 480px) {
+    .dropDown{
+        width: 15%;     
+        margin: auto;
+        padding: 5px;
+    }
+}
+.ddContainer{
+    margin-left: 80%;
+}
+.dropDown .dd{
+    width: 20px;
+    height: 1px;
+    background-color: white;
+    margin: 6px 0;
+    padding: .5px;
+}
+.navigationLink{
+    width: 35%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+@media (max-width: 480px) {
+    .navigationLink{
+        width: 55%;
+    }
+}
+a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    margin: auto;
+}
+.content-body .signUpTitle{
+    text-align: center;
+    margin: 20px 0;
+    font-size: 10px;
+}
+.content-body{
+    margin-top: 100px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.quote-container{
+    width: 35%;
+    text-align: start;
+    margin-top: 50px;
+}
+#quote{
+    font-size: 35px;
+    letter-spacing: 1.5px;
+    line-height: 50px;
+}
+#sub-quote{
+    font-size: 12px;
+    line-height: 20px;
+    color: rgb(219, 201, 201);
+}
+@media (max-width: 480px) {
+    .quote-container{
+        width: 85%;
+        text-align: center;
+        margin-top: -50px;
+    }
+    #quote{
+        font-size: 18px;
+        letter-spacing: 1.5px;
+        line-height: 30px;
+    }
+    #sub-quote{
+        font-size: 12px;
+        line-height: 20px;
+        color: rgb(219, 201, 201);
+    }
+}
+
+.form-fields{
+    border: 1px solid pink;
+    width: 300px;
+    border-radius: 5px;
+    border-bottom: none;
+}
+
+#input{
+    padding-left: 30px;;
+    background-color: transparent;
+    height: 40px;
+    width: 100%; 
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-bottom: .7px solid pink;
+    color: white;
+    text-indent: 3ch;
+}
+#myInput{
+    margin-left: -30px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    height: 100%;
+    width: 80%;
+    text-indent: 3ch;
+}
+#input::placeholder {
+    color: white;   
+}
+#myInput::placeholder {
+    color: white;   
+}
+
+#passMask{
+    justify-content: space-between;
+}
+img{
+    width: 30px;
+    height: 30px;
+}
+.sign-up-button{
+    background-color: rgb(144, 111, 235);
+    text-align: center;
+    padding: 10px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+}
+.sign-up-button:hover{
+    cursor: pointer;
+}
+
+.termAndAuth{
+    padding-top: 20px;
+    margin: auto;
+    color: rgb(245, 234, 234);
+    text-align: center;
+    width: 200px;
+    font-size: 8px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    color: rgb(190, 216, 218);
+}
+.bold-term{
+    color: white;
+}
+@media (max-width: 480px) {
+    .termAndAuth{
+        width: 80%;
+        font-size: 10px;
+        letter-spacing: 1px;
+    }
+
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width:100%;
+    position: absolute;
+    bottom: 0;
+    height: 30px;
+    font-size: 8px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: whitesmoke;
+}
+.copyright{
+    margin-left: 3%;
+}
+.footer-nav{
+    width: 60%;
+    margin: auto;
+    padding: 15px;
+}
+@media (max-width: 480px) {
+    .footer{
+        line-height: 20px;
+    }
+    .copyright{
+        margin: auto;
+    }
+}
