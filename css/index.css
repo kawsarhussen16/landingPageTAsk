@@ -223,10 +223,16 @@ img{
     padding: 15px;
 }
 @media (max-width: 480px) {
-    .footer{
-        line-height: 20px;
-    }
     .copyright{
         margin: auto;
+    }
+    .footer-nav-container{
+        margin: auto;
+        margin-top: 2px;
+    }
+    .footer-nav{
+        width: 60%;
+        margin: auto;
+        padding: 2px 15px ;
     }
 }
