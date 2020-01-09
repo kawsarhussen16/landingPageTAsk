@@ -20,10 +20,10 @@
             <a href="#"> Contacts </a>
         </div>
         <div class="dropDown"> 
-            <div class= "ddContainer">
-                <div class= "dd"></div>
-                <div class= "dd"></div>
-                <div class= "dd"></div>
+            <div class= "dd-Container">
+                <div class= "dd-item"></div>
+                <div class= "dd-item"></div>
+                <div class= "dd-item"></div>
             </div>          
         </div>
     </div>
@@ -35,16 +35,28 @@
         
         <div class="form-container">
             
-            <h5 class='signUpTitle'> SIGN UP FOR FREE</h5>
+            <h5 class="signUpTitle"> SIGN UP FOR FREE</h5>
             <form>
                 <div class="form-fields">
-                    <input  id="input" placeholder="Name" /> <br>
-                    <input  id="input" placeholder="Email" /> <br>
-                    <div  id="input" id= "passMask"> 
-                        <input  placeholder="Password" type="password"  id="myInput">
+                    <p> 
+                        <label for="name">Name</label>
+                        <input  id="input" placeholder="Name" />
+
+                    </p>
+                    <p>
+                        <label for="email">Email</label>
+                        <input  id="input" placeholder="Email" /> 
+
+                    </p>
+                    <p>
+                        <label for="password">Password</label>
+                        <input id="input" placeholder="Password" type="password" class="mask">
                         <img src="image/eye2.png"  onclick="myFunction()">
-                    </div>
-                    <div class="sign-up-button"> Sign Up ></div>
+                    </p>
+                    
+                    <p>
+                        <div class="sign-up-button"> Sign Up ></div>
+                    </p>         
                 </div>
             </form> 
             <div class="termAndAuth">
