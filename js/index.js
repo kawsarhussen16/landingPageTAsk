@@ -1,4 +1,4 @@
-function myFunction() {
+function unMask() {
     var x = document.getElementsByClassName("mask");
     x = x[0]
     if (x.type === "password") {
